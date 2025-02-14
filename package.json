@@ -1,0 +1,24 @@
+{
+  "name": "3d-time-calculator",
+  "version": "1.0.0",
+  "description": "A 3D Time Calculator",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "three": "^0.149.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Anderson",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andikeys/3D-Time-Calculator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Andikeys/3D-Time-Calculator/issues"
+  },
+  "homepage": "https://github.com/Andikeys/3D-Time-Calculator#readme"
+}

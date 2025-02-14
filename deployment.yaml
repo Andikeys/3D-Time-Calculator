@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: time-calculator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: time-calculator
+  template:
+    metadata:
+      labels:
+        app: time-calculator
+    spec:
+      containers:
+      - name: time-calculator
+        image: your-dockerhub-username/time-calculator:latest
+        ports:
+        - containerPort: 3000
